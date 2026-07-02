@@ -309,8 +309,7 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 ## 🙏 Acknowledgements
 
-- **Redrob AI** for the competition dataset and challenge design
-- **Zerve.ai** for the AI-native data workspace platform used to build this solution
+
 - The open-source Python ecosystem: NumPy, Pandas, Matplotlib
 
 ---
