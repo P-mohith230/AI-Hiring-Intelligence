@@ -1,0 +1,34 @@
+# Redrob AI Challenge — Submission Metadata
+# Fill in your team details before final submission
+
+team_name: "AI-Hiring-Intelligence"
+team_members:
+  - name: "YOUR NAME HERE"
+    email: "your.email@example.com"
+    role: "Lead Data Scientist"
+
+submission_file: "submission/submission.csv"
+github_repository: "https://github.com/YOUR_USERNAME/AI-Hiring-Intelligence"
+sandbox_url: "https://YOUR_SANDBOX_URL"
+
+methodology_summary: >
+  5-stage hybrid ranking pipeline combining TF-IDF semantic NLP,
+  18 engineered features, behavioral platform signals, and a novel
+  Profile Credibility Engine (Phase X). Zero honeypots in top-100.
+  All logic is CPU-only, deterministic (seed=42), and runs in < 5 minutes.
+
+ai_tools_used:
+  - "Zerve.ai (AI-native data workspace)"
+  - "Claude / Anthropic (AI assistant)"
+
+key_innovations:
+  - "Profile Credibility Engine — 8-module internal consistency scoring"
+  - "Honeypot detection — multi-rule disqualification protection"
+  - "Explainable AI — per-candidate factual reasoning for all top-100"
+  - "Hybrid 5-stage pipeline — structured + NLP + behavioral signals"
+
+runtime_seconds: 240
+memory_gb: 1.5
+cpu_only: true
+internet_required: false
+random_seed: 42

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ai-hiring-intelligence"
+version = "1.0.0"
+description = "Enterprise-grade AI candidate ranking system for the Redrob challenge"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.scripts]
+run-submission = "submission.run_submission:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "submission*"]
